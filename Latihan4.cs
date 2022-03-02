@@ -14,7 +14,7 @@ namespace Latihan_4
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			MessageBox.Show ("Hello World " + this.textBox1.Text);			
+			MessageBox.Show ("Halo " + this.textBox1.Text + " dengan NIM "+ this.textBox2.Text + " dari " + this.textBox3.Text + "! Selamat belajar " + this.textBox4.Text + " :)");			
 		}
 	}
 }
